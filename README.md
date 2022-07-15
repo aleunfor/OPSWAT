@@ -43,6 +43,8 @@ GET /api/threat/getallthreats (Obtiene todos los threats y los almacena en la BD
 GET /api/threat/getthreat/(:threat_id) (Obtiene el threat por "threat_id" que indiquemos por parámetro) \
 POST /api/threat/deletethreat/(:threat_id) (Elimina el threat por "threat_id" que indiquemos por parámetro)
 
+## Descripción
+
 Aplicación desarrollada con NodeJS, que tiene como por objetivo\
 consultar una API donde todos los "threats" se guardan en una base de datos,\
 MongoDB en este caso, cada vez que el endpoint /api/threat/getallthreats es consultado\
